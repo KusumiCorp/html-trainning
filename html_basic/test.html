@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>クラウドアプリパッケージ申込ページ</title>
+<style>
+div{
+ color: #666;
+ width: 500px;
+ margin-top:20px;
+ margin-right:auto;
+ margin-left:auto;
+}
+h1{
+ color:#00FFFF;
+ font-size:30px;
+}
+img{
+ float:right;
+}
+</style>
+</head>
+<body>
+<div>
+<!--本文START-->
+<h1>クラウドアプリパッケージ申込ページ</h1>
+
+<img src="./img/NTTeast.png" width="244" height="54">
+
+<p>
+<font size="5">基本情報</font><br>
+<label>契約者名：<input type="text" name="name" size="20" maxlength="20"></label><br>
+<label>契約住所：<input type="text" name="place" size="20" maxlength="20"></label><br>
+<label>連絡先　：<input type="text" name="mail" size="20" maxlength="20"></label><br>
+<label>契約者CAF：<input type="text" name="CAF" size="20" maxlength="20"></label><br>
+</p>
+
+<p>
+<font size="5">必須項目</font>
+</p>
+
+<p>
+<font size="5">選択項目</font><br>
+<input type="checkbox" name="plan" value="1">Active Directory<br>
+<input type="checkbox" name="plan" value="2">Web Hosting<br>
+<input type="checkbox" name="plan" value="3">仮想デスクトップ
+</p>
+
+<button type=button>申込</button>
+<!--本文END-->
+</div>
+<body>
+</html>
